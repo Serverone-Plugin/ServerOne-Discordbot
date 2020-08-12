@@ -1,0 +1,16 @@
+name: ServerOneDiscordbot
+version: 0.1
+discription: Connects features between Minecraft and Discord
+main: de.robotix_00.serverone.discordbot.ServerOneDiscordBot
+author: Robotix_00
+depend:
+- ServerOneSource
+softdepend:
+- PermissionsOne
+commands:
+   helpop:
+      usage: /helpop [message]
+      description: Sendet eine Nachricht an den Support
+   unlock:
+      usage: /unlock [key]
+      description: Schaltet den Spieler frei

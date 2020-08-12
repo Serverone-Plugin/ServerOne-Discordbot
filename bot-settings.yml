@@ -1,0 +1,23 @@
+#leaving the fields empty could cause errors
+
+enabled: false
+token: ""
+commandPrefix: "#"
+
+ids:
+   channels:
+      mc-chat: [channel-ID]
+      helpop: [channel-ID]
+      log: [channel-ID]
+      tmp-channel-creator: [channel-ID]
+      commands: [channel-ID]
+   messages:
+      player-unlock: [Message-ID]
+   roles:
+      player: [role-ID]
+      mc-dungeons: [role-ID]
+      mc-bedrock: [role-ID]
+      animal-crossing: [role-ID]
+   mc-groups:
+      player: [group-name]
+
