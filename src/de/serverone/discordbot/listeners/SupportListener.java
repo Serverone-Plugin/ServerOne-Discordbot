@@ -1,4 +1,4 @@
-package de.robotix_00.serverone.discordbot.listeners;
+package de.serverone.discordbot.listeners;
 
 import java.awt.Color;
 import java.time.LocalDateTime;
@@ -10,8 +10,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import de.robotix_00.serverone.discordbot.ServerOneDiscordBot;
 import de.robotix_00.serverone.source.util.ServerOneConfig;
+import de.serverone.discordbot.ServerOneDiscordBot;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.entities.TextChannel;

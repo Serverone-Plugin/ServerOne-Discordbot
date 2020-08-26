@@ -3,9 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="/PermissionsOne"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Projects/JavaProjects/ServerOne/arcives/JDA-4.1.1_127-withDependencies.jar"/>
-	<classpathentry kind="lib" path="D:/Projects/JavaProjects/ServerOne/arcives/ServerOneSource.jar"/>
-	<classpathentry kind="lib" path="D:/Projects/JavaProjects/ServerOne/arcives/craftbukkit-1.16.1.jar"/>
-	<classpathentry kind="lib" path="D:/Projects/JavaProjects/ServerOne/arcives/PermissionsOne.jar"/>
+	<classpathentry kind="lib" path="../libs/JDA-4.2.0_175-withDependencies.jar"/>
+	<classpathentry kind="lib" path="../libs/ServerOneSource.jar"/>
+	<classpathentry kind="lib" path="../libs/craftbukkit-1.16.1.jar"/>
+	<classpathentry kind="lib" path="../libs/PermissionsOne.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

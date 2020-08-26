@@ -1,11 +1,11 @@
-package de.robotix_00.serverone.discordbot;
+package de.serverone.discordbot;
 
 import javax.security.auth.login.LoginException;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import de.robotix_00.serverone.discordbot.listeners.LogListener;
 import de.robotix_00.serverone.source.util.ServerOneConfig;
+import de.serverone.discordbot.listeners.LogListener;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;

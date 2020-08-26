@@ -1,4 +1,4 @@
-package de.robotix_00.serverone.discordbot;
+package de.serverone.discordbot;
 
 import de.robotix_00.serverone.source.util.ServerOneConfig;
 import net.dv8tion.jda.api.JDA;

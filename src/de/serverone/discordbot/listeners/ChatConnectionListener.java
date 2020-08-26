@@ -1,11 +1,11 @@
-package de.robotix_00.serverone.discordbot.listeners;
+package de.serverone.discordbot.listeners;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 
-import de.robotix_00.serverone.discordbot.ServerOneDiscordBot;
 import de.robotix_00.serverone.source.util.ServerOneConfig;
+import de.serverone.discordbot.ServerOneDiscordBot;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.entities.TextChannel;
 

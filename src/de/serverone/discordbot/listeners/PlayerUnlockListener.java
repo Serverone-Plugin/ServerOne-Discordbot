@@ -1,4 +1,4 @@
-package de.robotix_00.serverone.discordbot.listeners;
+package de.serverone.discordbot.listeners;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import de.robotix_00.serverone.discordbot.ServerOneDiscordBot;
 import de.robotix_00.serverone.permissionsOne.PermissionsOne;
 import de.robotix_00.serverone.source.util.ServerOneConfig;
+import de.serverone.discordbot.ServerOneDiscordBot;
 import net.dv8tion.jda.api.entities.Role;
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.exceptions.ErrorResponseException;

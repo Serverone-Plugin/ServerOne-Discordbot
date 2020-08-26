@@ -1,4 +1,4 @@
-package de.robotix_00.serverone.discordbot.listeners;
+package de.serverone.discordbot.listeners;
 
 import java.awt.Color;
 import java.time.LocalDateTime;
@@ -11,7 +11,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import de.robotix_00.serverone.discordbot.ChannelSummary;
+import de.serverone.discordbot.ChannelSummary;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.TextChannel;
 import net.dv8tion.jda.api.events.user.update.UserUpdateOnlineStatusEvent;

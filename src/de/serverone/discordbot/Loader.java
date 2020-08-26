@@ -1,14 +1,14 @@
-package de.robotix_00.serverone.discordbot;
+package de.serverone.discordbot;
 
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import de.robotix_00.serverone.discordbot.listeners.ChatConnectionListener;
-import de.robotix_00.serverone.discordbot.listeners.CommandListener;
-import de.robotix_00.serverone.discordbot.listeners.LogListener;
-import de.robotix_00.serverone.discordbot.listeners.PlayerUnlockListener;
-import de.robotix_00.serverone.discordbot.listeners.SupportListener;
-import de.robotix_00.serverone.discordbot.listeners.TmpChannelListener;
+import de.serverone.discordbot.listeners.ChatConnectionListener;
+import de.serverone.discordbot.listeners.CommandListener;
+import de.serverone.discordbot.listeners.LogListener;
+import de.serverone.discordbot.listeners.PlayerUnlockListener;
+import de.serverone.discordbot.listeners.SupportListener;
+import de.serverone.discordbot.listeners.TmpChannelListener;
 import net.dv8tion.jda.api.JDA;
 
 public class Loader {
