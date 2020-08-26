@@ -1,8 +1,8 @@
 name: ServerOneDiscordbot
 version: 0.1
 discription: Connects features between Minecraft and Discord
-main: de.robotix_00.serverone.discordbot.ServerOneDiscordBot
-author: Robotix_00
+main: de.serverone.discordbot.ServerOneDiscordBot
+authors: [Robotix_00, Luigistar]
 depend:
 - ServerOneSource
 softdepend:
