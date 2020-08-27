@@ -9,8 +9,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import de.robotix_00.serverone.permissionsOne.PermissionsOne;
-import de.robotix_00.serverone.source.util.ServerOneConfig;
 import de.serverone.discordbot.ServerOneDiscordBot;
+import de.serverone.source.util.ServerOneConfig;
 import net.dv8tion.jda.api.entities.Role;
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.exceptions.ErrorResponseException;

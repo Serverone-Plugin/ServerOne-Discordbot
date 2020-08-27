@@ -3,8 +3,8 @@ package de.serverone.discordbot.listeners;
 import java.awt.Color;
 import java.util.List;
 
-import de.robotix_00.serverone.source.util.ServerOneConfig;
 import de.serverone.discordbot.ServerOneDiscordBot;
+import de.serverone.source.util.ServerOneConfig;
 import net.dv8tion.jda.api.entities.Category;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.Member;

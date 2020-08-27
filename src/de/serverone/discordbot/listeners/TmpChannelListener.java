@@ -1,7 +1,7 @@
 package de.serverone.discordbot.listeners;
 
-import de.robotix_00.serverone.source.util.ServerOneConfig;
 import de.serverone.discordbot.ServerOneDiscordBot;
+import de.serverone.source.util.ServerOneConfig;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.TextChannel;

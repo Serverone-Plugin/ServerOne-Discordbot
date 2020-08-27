@@ -4,8 +4,8 @@ import javax.security.auth.login.LoginException;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import de.robotix_00.serverone.source.util.ServerOneConfig;
 import de.serverone.discordbot.listeners.LogListener;
+import de.serverone.source.util.ServerOneConfig;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;

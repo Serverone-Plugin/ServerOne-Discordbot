@@ -4,8 +4,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 
-import de.robotix_00.serverone.source.util.ServerOneConfig;
 import de.serverone.discordbot.ServerOneDiscordBot;
+import de.serverone.source.util.ServerOneConfig;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.entities.TextChannel;
 
