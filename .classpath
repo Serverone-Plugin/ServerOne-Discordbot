@@ -2,10 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="/PermissionsOne"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="../libs/JDA-4.2.0_175-withDependencies.jar"/>
 	<classpathentry kind="lib" path="../libs/ServerOneSource.jar"/>
-	<classpathentry kind="lib" path="../libs/craftbukkit-1.16.1.jar"/>
+	<classpathentry kind="lib" path="../libs/craftbukkit-1.16.2.jar"/>
 	<classpathentry kind="lib" path="../libs/PermissionsOne.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
