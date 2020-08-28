@@ -36,7 +36,7 @@ public class ServerOneDiscordBot extends JavaPlugin {
     // onEnable
     public void onEnable() {
 	plugin = this;
-	ServerOneConfig.loadConfig(this, "ServerOne/DiscordBot", "bot-settings.yml");
+	ServerOneConfig.loadConfig(this, "plugins/ServerOne/DiscordBot", "bot-settings.yml");
 	config = ServerOneConfig.getConfig(this, "bot-settings.yml");
 	
 	if (config.getString("enabled") != "true")
