@@ -23,7 +23,8 @@ public class Loader {
 	pluginManager.registerEvents(new LogListener(), plugin);
 
 	// Discord
-	jda.addEventListener(new ChatConnectionListener());
+	
+	//jda.addEventListener(new ChatConnectionListener());
 	jda.addEventListener(new TmpChannelListener());
 	jda.addEventListener(new CommandListener());
 	jda.addEventListener(new LogListener());
