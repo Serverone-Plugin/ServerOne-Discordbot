@@ -1,4 +1,4 @@
-#leaving the fields empty could cause errors
+#Das Leerlassen der Felder könnte Fehler hervorrufen
 
 enabled: false
 token: ""

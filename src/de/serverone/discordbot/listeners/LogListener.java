@@ -14,7 +14,6 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import de.serverone.discordbot.ChannelSummary;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.TextChannel;
-import net.dv8tion.jda.api.events.user.update.UserUpdateOnlineStatusEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class LogListener extends ListenerAdapter implements Listener {
@@ -81,19 +80,7 @@ public class LogListener extends ListenerAdapter implements Listener {
 	channel.sendMessage(eb.build()).queue();
 	eb.clear();
     }
-    /* Discord */
-
-    //
-    public void onUserUpdateOnlineStatus(UserUpdateOnlineStatusEvent event) {
-	EmbedBuilder eb = new EmbedBuilder().setTitle(event.getUser().getName() + " hat seinen Onlinestatus geändert")
-		.setColor(Color.BLUE).addField("Benutzer", event.getUser().getName(), true)
-		.addField("Zeit", getTime(), true).addField("Alter Status", event.getOldOnlineStatus().name(), true)
-		.addField("Neuer Status", event.getNewOnlineStatus().name(), true);
-
-	channel.sendMessage(eb.build()).queue();
-	eb.clear();
-    }
-
+    
     private static String getTime() {
 	return DateTimeFormatter.ofPattern("HH:mm:ss dd.MM.yyyy").format(LocalDateTime.now());
     }

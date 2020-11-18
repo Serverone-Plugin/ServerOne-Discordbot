@@ -19,6 +19,7 @@ public class ServerOneDiscordBot extends JavaPlugin {
     public static String token;
     public static boolean enabled;
     public static boolean loaded = false;
+    
     private static Runnable runBot = new Runnable() {
 	public void run() {
 	    try {

@@ -38,6 +38,7 @@ public class PlayerUnlockListener extends ListenerAdapter implements CommandExec
 			    + key + "` um dich frei zu schalten."
 			    + " Der Schlüssel verfällt nach einer Weile wieder. Falls du es nicht schaffst dich in der nächsten Zeit auf unserem Server einzuloggen bitten wir darum, dich bei einem Supporter zu melden")
 		    .complete();
+	    
 	} catch (ErrorResponseException e) {
 	    System.err.println("Cound not send unlock-key to " + event.getUser().getAsTag());
 	    keys.remove(key);

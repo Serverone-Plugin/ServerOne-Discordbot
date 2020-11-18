@@ -3,7 +3,6 @@ package de.serverone.discordbot;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import de.serverone.discordbot.listeners.ChatConnectionListener;
 import de.serverone.discordbot.listeners.CommandListener;
 import de.serverone.discordbot.listeners.LogListener;
 import de.serverone.discordbot.listeners.PlayerUnlockListener;
@@ -19,7 +18,11 @@ public class Loader {
 	
 	// Bukkit
 	PluginManager pluginManager = plugin.getServer().getPluginManager();
-	pluginManager.registerEvents(new ChatConnectionListener(), plugin);
+	
+	
+	//pluginManager.registerEvents(new ChatConnectionListener(), plugin);
+	
+	
 	pluginManager.registerEvents(new LogListener(), plugin);
 
 	// Discord
@@ -29,7 +32,7 @@ public class Loader {
 	jda.addEventListener(new CommandListener());
 	jda.addEventListener(new LogListener());
 	jda.addEventListener(new PlayerUnlockListener());
-
+	
 	// Commands
 	plugin.getCommand("helpop").setExecutor(new SupportListener());
 	plugin.getCommand("unlock").setExecutor(new PlayerUnlockListener());
